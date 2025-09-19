@@ -1,0 +1,88 @@
+body {
+    /* Replace the solid background with a gradient */
+    background: rgb(41, 7, 104);
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+/* Adjust game container for better contrast */
+#game {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+    height: auto;
+    min-height: 400px;
+    width: 700px;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+#text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #00ff00;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+.stats {
+    color: #00ff00;
+}
+
+#playerStat, #monsterStat {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#Options {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #00ff00;
+    color: black;
+}
+
+#playerStat {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #00ff00;
+    color: black;
+}
+
+#monsterStat {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00ff00;
+    padding: 10px;
+    color: #00ff00;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+#monsterName, #monsterHealth {
+    display: block;
+    margin: 5px 0;
+}
